@@ -2,7 +2,7 @@
 
 // const { response } = require("express");
 
-// console.log("Client side JS file");
+console.log("Client side JS file");
 // fetch("http://puzzle.mead.io/puzzle").then((response) => {
 //   response.json().then((data) => {
 //     console.log(data);
