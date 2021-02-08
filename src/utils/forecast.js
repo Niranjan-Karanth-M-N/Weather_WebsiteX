@@ -5,7 +5,8 @@ const forecast = function (latitude, longitude, callback) {
     "http://api.weatherstack.com/current?access_key=021359614769182257f47e6911fee5b9&query=" +
     latitude +
     "," +
-    longitude;
+    longitude +
+    "&units=f";
   // 37.8267,-122.4233
   request({ url, json: true }, (error, { body } = {}) => {
     if (error) {
